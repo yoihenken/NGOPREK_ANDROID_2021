@@ -22,7 +22,7 @@ fun main(){
                 } else {
                     "Kantin tutup"
                 }
-    print(office)
+    println(office)
 
 
     //return memanggil variabel
@@ -36,7 +36,16 @@ fun main(){
         office2 = "Kantin tutup"
     }
 
-    print(office2)
+    println(office2)
 
+    //Elvis Operator
 
+    val text : String? = null
+    val textLength = text?.length ?: 7 //Jika nilai kosong, tampil nilai 7. Jika ada nilai, tampilkan nilai
+    println(textLength)
+
+    var score : Int? = null
+    println(score ?: 100) //Jika nilai kosong, tampil nilai 7. Jika ada nilai, tampilkan nilai
+    score = 80
+    println(score ?: 100) //Jika nilai kosong, tampil nilai 7. Jika ada nilai, tampilkan nilai
 }
