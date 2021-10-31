@@ -29,5 +29,5 @@ fun functionUser(name : String, age : Int) : String{ //fun _namafungsi_ (_parame
 }
 
 //Fungsi penulisan cepat
-fun functionQuick(name: String, age: Int) = "Your name is $name, $age years old" 
+fun functionQuick(name: String, age: Int) = "Your name is $name, $age years old"
 
