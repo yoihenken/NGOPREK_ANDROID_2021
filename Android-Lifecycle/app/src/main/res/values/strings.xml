@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android-Lifecycle</string>
+    <string name="label_name">Nama Mahasiswa</string>
+    <string name="label_nim">Nim Mahasiswa</string>
+    <string name="my_name">Ei-chan</string>
+    <string name="my_nim">1001</string>
+    <string name="move_to_activity">Pindah Activity</string>
+
+</resources>
