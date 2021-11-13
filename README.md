@@ -2,6 +2,8 @@
 Ngoprek Mobile Android 
 
 
+## Android Lifecycle
+
 
 -   **onCreate()**
     
