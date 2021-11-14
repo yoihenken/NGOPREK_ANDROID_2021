@@ -32,3 +32,19 @@ Ngoprek Mobile Android
 -   **onRestart()**
     
     Dipanggil saat activity sudah melalui  `onStop()`  tapi akan diaktifkan lagi. Method ini jarang di implementasi.
+    
+
+
+## Path File & Package
+
+- Menambahkan `id 'kotlin-android-extensions'` di gradle.app. Plugin ini digunakan untuk memanggil komponen UI dari Kotlin.
+[Gradle.app](https://github.com/yoihenken/NGOPREK_ANDROID_2021/blob/Meet2/Android-Lifecycle/app/build.gradle)
+
+- Menambahkan teks yang dapat dipanggil berulang kali
+[strings.xml](https://github.com/yoihenken/NGOPREK_ANDROID_2021/blob/Meet2/Android-Lifecycle/app/src/main/res/values/strings.xml)
+
+- Pengaturan UI dari Apps yang dibuat
+[Daftar Layout XML](https://github.com/yoihenken/NGOPREK_ANDROID_2021/tree/Meet2/Android-Lifecycle/app/src/main/res/layout)
+
+- Pengaturan event handler atau logic dengan Kotlin
+[Kotlin Activity](https://github.com/yoihenken/NGOPREK_ANDROID_2021/tree/Meet2/Android-Lifecycle/app/src/main/java/com/henken/android_lifecycle)
